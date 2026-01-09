@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "name": "clone-tabnews",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": "git@github.com:MarcoTortelli/clone-tabnews.git",
+  "author": "Marco Antonio Barro Tortelli <marcobarrotortelli@gmail.com>",
+  "license": "MIT"
+}
