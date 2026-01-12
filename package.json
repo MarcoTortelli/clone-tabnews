@@ -8,9 +8,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": "git@github.com:MarcoTortelli/clone-tabnews.git",
   "author": "Marco Antonio Barro Tortelli <marcobarrotortelli@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
 }
